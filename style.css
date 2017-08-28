@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Nothing+You+Could+Do|Rock+Salt');
+
+body {
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:0;
+  background-image: url('background.jpg'); 
+  overflow:hidden;
+}
+
+#gavsContainer {
+    width: 49vw;
+    height: 32vw;
+    margin: 5vw auto;
+    text-align: center;
+    padding: 0vw 0vw 0vw 0vw;
+    position: relative;
+}
+
+#gavsHeadingsBox {
+      height: 5.5vw;
+}
+
+#gavsHeading {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2.4vw;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 4.7vw;
+}
+
+#joke-container {
+    width: 41vw;
+    height: 11vw;
+    padding: 2vw .5vw 0px 3vw;
+    font-family: 'Nothing You Could Do', cursive;
+    text-align: center;
+}
+
+.joke-text {
+    font-size: 1.8vw;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+.clearDiv {
+	clear:both;
+}
+
+#coffee-stain-container {
+    width: 16vw;
+    position: relative;
+    cursor: hand;
+    cursor: pointer;
+    margin-left: 16.3vw;
+    margin-top: 1.3vw;
+}
+
+#coffee-stain-container img {
+      width: 16vw;
+}
+
+#coffee-stain-container p {
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    color: #FFF;
+    font-size: 2vw;
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: bold;
+    line-height: 1.8vw;
+}
